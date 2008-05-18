@@ -1,0 +1,121 @@
+gnucap
+------------------------------------------
+Gnucap is the Gnu Circuit Analysis Package.
+
+The primary component is a general purpose circuit simulator. It 
+performs nonlinear dc and transient analyses, fourier analysis, and ac 
+analysis. Spice compatible models for the MOSFET (level 1-8), BJT, and 
+diode are included in this release.
+
+Runtime requirements:
+  cygwin-1.5.25-11
+  libreadline6-5.2.12-10
+  termcap-20050421-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.61-1
+  automake1.10-1.10.1-1
+  binutils-20060817-1
+  cygport-0.3.10-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.gnucap.org/
+
+Canonical download:
+  http://www.gnucap.org/devel/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnucap-2008.03.24-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gnucap-2008.03.24-X.cygport all
+
+This will create:
+  /usr/src/gnucap-2008.03.24-X-src.tar.bz2
+  /usr/src/gnucap-2008.03.24-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/gnucap-modelgen.exe
+  /usr/bin/gnucap.exe
+  /usr/share/doc/gnucap-2008.03.24/AUTHORS
+  /usr/share/doc/gnucap-2008.03.24/COPYING
+  /usr/share/doc/gnucap-2008.03.24/ChangeLog
+  /usr/share/doc/gnucap-2008.03.24/INSTALL
+  /usr/share/doc/gnucap-2008.03.24/README
+  /usr/share/gnucap/doc/COPYING
+  /usr/share/gnucap/doc/INSTALL
+  /usr/share/gnucap/doc/acs-tutorial
+  /usr/share/gnucap/doc/history
+  /usr/share/gnucap/doc/relnotes.029
+  /usr/share/gnucap/doc/relnotes.030
+  /usr/share/gnucap/doc/relnotes.031
+  /usr/share/gnucap/doc/relnotes.032
+  /usr/share/gnucap/doc/relnotes.033
+  /usr/share/gnucap/doc/relnotes.034
+  /usr/share/gnucap/doc/whatisit
+  /usr/share/gnucap/examples/eq.doc
+  /usr/share/gnucap/examples/eq2-145.ckt
+  /usr/share/gnucap/examples/eq2-289.ckt
+  /usr/share/gnucap/examples/eq2-577.ckt
+  /usr/share/gnucap/examples/eq3-1153.ckt
+  /usr/share/gnucap/examples/eq4-2305.ckt
+  /usr/share/gnucap/examples/eq4-4609.ckt
+  /usr/share/gnucap/examples/eq4-6913.ckt
+  /usr/share/gnucap/examples/eq4-9217.ckt
+  /usr/share/gnucap/examples/eq4-9217.tran-slow.ckt
+  /usr/share/gnucap/examples/eq4-9217.tran.ckt
+  /usr/share/gnucap/examples/eq5-.ac.ckt
+  /usr/share/gnucap/examples/eq5-.tran.ckt
+  /usr/share/gnucap/examples/eq5-.tran.euler.fast.ckt
+  /usr/share/gnucap/examples/eq5-.tran.fast.ckt
+  /usr/share/gnucap/examples/eq5-.tran.like-spice.ckt
+  /usr/share/gnucap/examples/eq5-.tran.slow.ckt
+  /usr/share/gnucap/examples/eq5-.tran.vfast.ckt
+  /usr/share/gnucap/examples/eq5-.tran.vvfast.ckt
+  /usr/share/gnucap/examples/eq5-.tran.vvvfast.ckt
+  /usr/share/gnucap/examples/eq6-.tran.vvvfast.ckt
+  /usr/share/gnucap/examples/eq7-.tran.vvvfast.ckt
+  /usr/share/gnucap/examples/eqboost.ckt
+  /usr/share/gnucap/examples/eqflat.ckt
+  /usr/share/gnucap/examples/eqmodify.ckt
+  /usr/share/gnucap/examples/killzap.ckt
+  /usr/share/gnucap/examples/killzap.doc
+  /usr/share/gnucap/examples/nmos.doc
+  /usr/share/gnucap/examples/nmos100.ckt
+  /usr/share/gnucap/examples/nmos15.ckt
+  /usr/share/gnucap/examples/nmos18.ckt
+  /usr/share/gnucap/examples/nmos30.ckt
+  /usr/share/gnucap/examples/nmosgen.c
+  /usr/share/gnucap/examples/nmp100.ckt
+  /usr/share/gnucap/examples/nmpgen.c
+  /usr/share/gnucap/examples/opamp-ol.ckt
+  /usr/share/gnucap/examples/opamp-vf.ckt
+  /usr/share/gnucap/examples/opamp.doc
+  /usr/share/gnucap/examples/runall
+  /usr/share/gnucap/examples/runall.out
+  /usr/share/gnucap/examples/sc18.ckt
+  /usr/share/gnucap/manual/gnucap-man.pdf
+  /usr/share/man/man1/gnucap-ibis.1.gz
+  /usr/share/man/man1/gnucap.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 2008.03.24-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
