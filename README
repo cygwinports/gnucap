@@ -8,19 +8,21 @@ analysis. Spice compatible models for the MOSFET (level 1-8), BJT, and
 diode are included in this release.
 
 Runtime requirements:
-  cygwin-1.5.25-11
-  libreadline6-5.2.12-10
+  cygwin-1.7.0-45
+  libgcc1-4.3.2-2
+  libreadline6-5.2.13-11
+  libstdc++6-4.3.2-2
   termcap-20050421-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
-  binutils-20060817-1
-  cygport-0.3.10-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  make-3.81-1
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  make-3.81-2
   sed-4.1.5-2
 
 Canonical website:
@@ -32,15 +34,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnucap-2008.03.24-X-src.tar.bz2
+  unpack gnucap-2009.02.02-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnucap-2008.03.24-X.cygport all
+  cygport ./gnucap-2009.02.02-X.cygport all
 
 This will create:
-  /usr/src/gnucap-2008.03.24-X-src.tar.bz2
-  /usr/src/gnucap-2008.03.24-X.tar.bz2
+  /usr/src/gnucap-2009.02.02-X-src.tar.bz2
+  /usr/src/gnucap-2009.02.02-X.tar.bz2
 
 -------------------------------------------
 
@@ -48,11 +50,10 @@ Files included in the binary package:
 
   /usr/bin/gnucap-modelgen.exe
   /usr/bin/gnucap.exe
-  /usr/share/doc/gnucap-2008.03.24/AUTHORS
-  /usr/share/doc/gnucap-2008.03.24/COPYING
-  /usr/share/doc/gnucap-2008.03.24/ChangeLog
-  /usr/share/doc/gnucap-2008.03.24/INSTALL
-  /usr/share/doc/gnucap-2008.03.24/README
+  /usr/share/doc/gnucap/AUTHORS
+  /usr/share/doc/gnucap/COPYING
+  /usr/share/doc/gnucap/ChangeLog
+  /usr/share/doc/gnucap/README
   /usr/share/gnucap/doc/COPYING
   /usr/share/gnucap/doc/INSTALL
   /usr/share/gnucap/doc/acs-tutorial
@@ -105,7 +106,6 @@ Files included in the binary package:
   /usr/share/gnucap/examples/runall
   /usr/share/gnucap/examples/runall.out
   /usr/share/gnucap/examples/sc18.ckt
-  /usr/share/gnucap/manual/gnucap-man.pdf
   /usr/share/man/man1/gnucap-ibis.1.gz
   /usr/share/man/man1/gnucap.1.gz
 
@@ -113,8 +113,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 2008.03.24-1 -----
-Initial release for Cygwin.
+----- version 2009.02.02-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
