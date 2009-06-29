@@ -1,5 +1,5 @@
 category: Science
-requires: cygwin libgcc1 libreadline6 libstdc++6 termcap
+requires: libgcc1 libreadline6 libstdc++6 termcap
 sdesc: "Electronic circuit simulator backend"
 ldesc: "Gnucap is the Gnu Circuit Analysis Package.
 The primary component is a general purpose circuit simulator. It
