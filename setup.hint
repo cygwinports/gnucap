@@ -1,8 +1,0 @@
-category: Science
-requires: libgcc1 libreadline7 libstdc++6 termcap
-sdesc: "Electronic circuit simulator backend"
-ldesc: "Gnucap is the Gnu Circuit Analysis Package.
-The primary component is a general purpose circuit simulator. It
-performs nonlinear dc and transient analyses, fourier analysis, and ac
-analysis. Spice compatible models for the MOSFET (level 1-8), BJT, and
-diode are included in this release."
