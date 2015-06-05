@@ -1,6 +1,6 @@
 NAME="gnucap"
 VERSION=2009.12.07
-RELEASE=1
+RELEASE=3
 CATEGORY="Science"
 SUMMARY="Electronic circuit simulator backend"
 DESCRIPTION="Gnucap is the Gnu Circuit Analysis Package.
@@ -9,14 +9,5 @@ performs nonlinear dc and transient analyses, fourier analysis, and ac
 analysis. Spice compatible models for the MOSFET (level 1-8), BJT, and
 diode are included in this release."
 HOMEPAGE="http://www.gnucap.org/"
-SRC_URI="
-	http://www.gnucap.org/devel/archive/gnucap-${VERSION//\./-}.tar.gz
-	http://www.gnucap.org/devel/archive/gnucap-${VERSION//\./-}-models-bsim.tar.gz
-	http://www.gnucap.org/devel/archive/gnucap-${VERSION//\./-}-models-jspice3-2.5.tar.gz
-	http://www.gnucap.org/devel/archive/gnucap-${VERSION//\./-}-models-ngspice17.tar.gz
-	http://www.gnucap.org/devel/archive/gnucap-${VERSION//\./-}-models-spice3f5.tar.gz
-	http://www.gnucap.org/devel/archive/gnucap-${VERSION//\./-}-tools.tar.gz
-"
+SRC_URI="http://www.gnucap.org/devel/archive/gnucap-${VERSION//\./-}.tar.gz"
 SRC_DIR="gnucap-${VERSION//\./-}"
-
-REQUIRES="termcap"
